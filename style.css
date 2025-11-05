@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Elms Sans", sans-serif;
+}
+
+body{
+    width: 400px;
+    margin: auto;
+    background-color: black;
+}
+
+div{
+    background-color: white;
+}
+
+.leftDiv{
+    display: flex;
+    background-color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white; 
+}
+
+.icon{
+    display: flex;
+    font-size: 25px;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 5px;
+}
+
+.leftIcon{
+    display: flex; 
+}
+
+span{
+    font-weight: bold;
+}
+.photoProfile{
+    margin: 5px;
+    width: 40px
+}
+
+.viewFollow span{
+    font-size: 12px;
+}
+
+p{
+    font-size: 14px;
+    padding: 5px;
+}
